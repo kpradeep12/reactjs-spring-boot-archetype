@@ -33,5 +33,15 @@ under the License.
     <fileSet filtered="true" packaged="false">
       <directory>ui</directory>
     </fileSet>
+    <fileSet filtered="false" packaged="false">
+      <directory>.mvn</directory>
+    </fileSet>
+    <fileSet filtered="false" packaged="false">
+      <directory></directory>
+      <includes>
+        <include>mvnw</include>
+        <include>mvnw.cmd</include>
+      </includes>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
